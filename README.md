@@ -18,6 +18,15 @@
   <a href="https://www.npmjs.com/package/@caffeinecatkr/blurssism">npm</a>
 </p>
 
+<p align="center">
+  <a href="https://leeuc10.github.io/blurssism/examples/components/WebLanding.html"><img src="docs/images/web-espresso-light.jpg" width="1200" alt="blurssism 웹 예시: 크림색 바탕, 불투명 카드, 젖빛 내비게이션과 토스트 / Web preview with cream paper, opaque cards, and frosted navigation and toast"></a>
+</p>
+<p align="center">
+  실제 컴포넌트로 만든 에스프레소 라이트 화면 · Espresso light, rendered from the included components<br>
+  <a href="https://leeuc10.github.io/blurssism/">컴포넌트 직접 보기 / Explore components</a> ·
+  <a href="#설치">설치하기</a> · <a href="#install">Install</a>
+</p>
+
 <p align="center"><a href="#한국어">한국어</a> · <a href="#english">English</a></p>
 
 ---
@@ -25,6 +34,23 @@
 ## 한국어
 
 blurssism은 우유 거품 같은 크림색 바탕 위에 젖빛 크레마 **블러레마(Blurema)**를 **필요한 곳에만** 띄우는 디자인 시스템입니다. 유리 표현은 Apple Liquid Glass와 Samsung One UI에서 영감을 받았고, 색은 카페인에서 가져왔으며, 한국어 화면을 기준으로 만들었습니다.
+
+### 어떤 화면을 만들 수 있나요?
+
+| 원하는 느낌 | blurssism의 표현 |
+| --- | --- |
+| 차분하게 읽히는 본문 | 크림색 `paper` 바탕과 불투명 카드, 절제된 강조색 |
+| 떠 있는 조작부 | 내비게이션·탭바·시트·토스트에만 젖빛 블러레마 |
+| 브랜드에 맞는 분위기 | 에스프레소·말차 등 13개 팔레트와 라이트·다크, 브랜드색 생성 |
+| 웹과 앱에 같은 규칙 | React·Svelte 5·CSS, 반응형 그리드와 공통 토큰 |
+
+[웹 화면 열기](https://leeuc10.github.io/blurssism/examples/components/WebLanding.html) · [앱 화면 열기](https://leeuc10.github.io/blurssism/examples/components/AppScreen.html) · [팔레트 바꿔보기](https://leeuc10.github.io/blurssism/#palettes)
+
+### 블러레마를 눈으로 비교해 보세요
+
+![블러, 우유 거품 색, 거품 결, 크레마 띠의 네 층과 off·on·rich 모드를 비교한 실제 화면](docs/images/blurema-modes.jpg)
+
+왼쪽은 불투명한 `off`, 가운데는 기본 `on`, 오른쪽은 더 깊은 블러의 `rich`입니다. 위쪽 네 칸은 블러 위에 크림색 젖빛·거품 결·캐러멜빛 띠가 쌓이는 과정을 보여 줍니다. [직접 비교하기](https://leeuc10.github.io/blurssism/examples/components/Blurema.html)
 
 **원칙**
 1. **90 / 10.** 화면의 90% 이상은 종이(`paper`)와 먹(`ink`). 강조색은 10% 이내.
@@ -215,6 +241,11 @@ applyCremaPreference({ rich: true });      // 데스크톱 모드 항상 켜기
 ---
 
 ## English
+
+**See it before installing:** the [web preview](https://leeuc10.github.io/blurssism/examples/components/WebLanding.html), [app preview](https://leeuc10.github.io/blurssism/examples/components/AppScreen.html), and [palette picker](https://leeuc10.github.io/blurssism/#palettes) use the included components. The screenshots above show the actual Espresso light examples.
+
+The visual rule is simple: readable cream paper and opaque content cards, with frosted **Blurema** reserved for floating controls. Compare the [four visual layers and three crema modes](docs/images/blurema-modes.jpg): `off` is opaque, `on` adds the standard blur, and `rich` deepens the blur for desktop. [Try the comparison live](https://leeuc10.github.io/blurssism/examples/components/Blurema.html).
+
 
 blurssism floats **crema** — Blurema, a frosted, milk-tinted surface topped with a caramel crema band — **only where it's needed**, over a calm milk-foam cream background. The look is inspired by Apple Liquid Glass and Samsung One UI, the colors come from caffeine, and the system is designed with Korean typography as the default.
 
